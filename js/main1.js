@@ -1,5 +1,5 @@
 var uname = prompt("Your name:");
-var websocket = new WebSocket("wss://068423ea62f8.ngrok.io/"+uname);
+var websocket = new WebSocket("wss://"+prompt("socket")+"/"+uname);
 //var websocket = new WebSocket("wss://repl.it/join/zggruodk-arifsardar");
 const chatMessages = document.querySelector('#mainChatBody');
 const body = document.querySelector('#chatcordChat');
